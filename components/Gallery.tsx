@@ -2,38 +2,14 @@ import { Camera } from "lucide-react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const galleryImages = [
-  {
-    src: "https://images.unsplash.com/photo-1599351431202-1e0f0137a2f6?w=600&q=80",
-    alt: "Barber sedang memotong rambut",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&q=80",
-    alt: "Alat cukur klasik",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1596728325488-58c87691e9af?w=600&q=80",
-    alt: "Hasil potongan rapi",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1593702288056-99a3b50e1eab?w=600&q=80",
-    alt: "Interior barbershop",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80",
-    alt: "Model rambut fade",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1621607512214-68297480165e?w=600&q=80",
-    alt: "Barber sedang bekerja",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1585747860243-d93f1fd4e27a?w=600&q=80",
-    alt: "Barbershop pole klasik",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1567894340315-735d7c361db7?w=600&q=80",
-    alt: "Kursi barbershop klasik",
-  },
+  { src: "/images/gallery-1.jpg", alt: "Barber sedang memotong rambut" },
+  { src: "/images/gallery-2.jpg", alt: "Alat cukur klasik" },
+  { src: "/images/gallery-3.jpg", alt: "Hasil potongan rapi" },
+  { src: "/images/gallery-4.jpg", alt: "Interior barbershop" },
+  { src: "/images/gallery-5.jpg", alt: "Model rambut fade" },
+  { src: "/images/gallery-6.jpg", alt: "Barber sedang bekerja" },
+  { src: "/images/gallery-7.jpg", alt: "Peralatan barbershop" },
+  { src: "/images/gallery-8.jpg", alt: "Suasana barbershop" },
 ];
 
 export default function Gallery() {
